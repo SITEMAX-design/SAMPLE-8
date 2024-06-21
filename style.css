@@ -1,0 +1,147 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the background image */
+.background-image {
+    background-image: url('media/ocean.jpg'); /* Replace 'background-image.jpg' with your actual image file path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust the height as needed */
+    color: white; /* Text color on top of the background */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    padding: 2rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* Navigation bar styles */
+.navbar {
+    background-color: #333; /* Dark background color */
+    color: white; /* Text color */
+    width: 100%;
+    position: fixed; /* Fixed position to stay on top */
+    top: 0;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Example max-width for centering */
+    margin: 0 auto; /* Center the content */
+    padding: 10px 20px;
+}
+
+.navbar .logo {
+    color: white; /* Text color */
+    text-decoration: none;
+    font-size: 1.5rem; /* Example font size */
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px; /* Example spacing between links */
+}
+
+.nav-links li a {
+    color: white; /* Text color */
+    text-decoration: none;
+    font-size: 1rem; /* Example font size */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.nav-links li a:hover {
+    color: #66ccff; /* Hover color */
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.75); /* Semi-transparent black background for content */
+    padding: 2rem;
+}
+
+.content h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.content p {
+    color: white;
+    text-align: center;
+    font-size: 18px; /* Adjust the font size as needed */
+    line-height: 1.6; /* Adjust the line height for better readability */
+}
+
+.services-contact-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.content2, .content3 {
+    flex: 1;
+    background-color: rgba(0, 0, 23, 0.6); /* Semi-transparent blue background for services and contact */
+    padding: 2rem;
+    margin: 0 10px;
+}
+
+.content2 h2, .content3 h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.content2 ol {
+    color: white;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.content2 li {
+    color: white;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.content3 h5 {
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 20px
+}
+
+.content3 p {
+    color: white;
+    text-align: center;
+    font-size: 18px; /* Adjust the font size as needed */
+    line-height: 1.6; /* Adjust the line height for better readability */
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
